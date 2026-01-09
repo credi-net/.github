@@ -1,6 +1,6 @@
-## NET-CRED: Network-Based Credibility Modelling
+## CrediNet: Network-Based Credibility Modelling
 
-### About NET-CRED
+### About CrediNet
 
 TODO: Add short intro sentences and repo structure
 
