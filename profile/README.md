@@ -104,7 +104,7 @@ uv run pytest test/
 
 ## Continuous Integration
 
-CrediNet repos use Github Actions to maintain code under our standard. Your PR will be checked against our workflows. 
+Credi-net repositories use Github Actions to maintain code under our standards. Your PR will be checked against our workflows. 
 
 ### Resources
 
