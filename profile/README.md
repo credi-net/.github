@@ -74,6 +74,9 @@ to activate the environment.
 ```sh
 # Clone the repo
 
+#CD into repo. e.x:
+cd CrediText
+
 # Install core dependencies into an isolated environment
 uv sync
 ```
@@ -88,7 +91,7 @@ The hooks can be installed by issuing:
 uv run pre-commit install
 ```
 
-It is recommended to use these hooks when commiting code remotely but they can also be skipped by commiting with the `--no-verify` flag.
+It is recommended to use these hooks when committing code remotely, but they can also be skipped by commiting with the `--no-verify` flag.
 
 ## Unit Testing
 
@@ -101,7 +104,7 @@ uv run pytest test/
 
 ## Continuous Integration
 
-In process.
+CrediNet repos use Github Actions to maintain code under our standard. Your PR will be checked against our workflows. 
 
 ### Resources
 
