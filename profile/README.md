@@ -123,7 +123,7 @@ Read more on this work:
 - Pre-print on the graph construction and preliminary model results (ArXiv): [*CrediBench: Building Web-Scale Network Datasets for Information Integrity*](https://arxiv.org/abs/2509.23340)
 - See also [CrediNet on HuggingFace](https://huggingface.co/credi-net)
   
-or our work more broadly at the [Complex Data Lab](https://www.complexdatalab.com).
+or our work more broadly at the [Complex Data Lab](https://huggingface.co/ComplexDataLab).
 
 For more documentation regarding the CrediNet codebase, refer to README's under individual repositories. 
  
