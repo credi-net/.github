@@ -2,9 +2,21 @@
 
 ### About CrediNet
 
-TODO: Add short intro sentences and repo structure
+**CrediNet** is set of tools that use graph machine learning and computational methods for credibility modelling on the web.
 
-### Contribution Guidelines
+We develop billion-scale data webgraphs and use them to assess credibility levels of websites, which can be used downstream to augment Retrieval-Augmented Generation robustness and fact-checking. 
+This involves large-scale web scraping and text processing, and developing model architectures to interpret the different types of signals we can find on the web (including structural, temporal and linguistic cues). 
+- See also our [Huggingface datasets](https://huggingface.co/credi-net).
+
+For more details, refer to a specific repository: 
+- [CrediNet](https://github.com/credi-net/CrediNet): the client-side repository with the API documentation, and downstream application examples.
+- [CrediPred](https://github.com/credi-net/CrediPred): our graph-based models, trained for the task of predicting the assessed credibility level of a given domain on the web.
+- [CrediGraph](https://github.com/credi-net/CrediGraph): our data construction pipeline, including:
+  - The graph construction pipeline which automates the generation of billion-scale graphs from Common Crawl's raw data files on a monthly basis; and
+  - A benchmark curation of 600k+ labeled domains from 8 human-annotated datasets of credibility scores, spanning both continuous and binary domain labels.
+- [CrediText](https://github.com/credi-net/CrediText): the text extraction pipeline, which retrieves text content for the millions of nodes in our graph datasets, either from Common Crawl raw files or through web scraping. This text is used to augment the structural and temporal information found in the graph in learning credibility signals. 
+
+## Contribution Guidelines
 ## Prerequisites
 
 The project uses [uv](https://docs.astral.sh/uv/) to manage and lock project dependencies for a consistent and reproducible environment. If you do not have `uv` installed on your system, visit [this page](https://docs.astral.sh/uv/getting-started/installation/) for installation instructions.
@@ -106,7 +118,12 @@ uv run pytest test/
 
 Credi-net repositories use Github Actions to maintain code under our standards. Your PR will be checked against our workflows. 
 
-### Resources
+# Resources
+Read more on this work:
+- Pre-print on the graph construction and preliminary model results (ArXiv): [*CrediBench: Building Web-Scale Network Datasets for Information Integrity*](https://arxiv.org/abs/2509.23340)
+- See also [CrediNet on HuggingFace](https://huggingface.co/credi-net)
+  
+or our work more broadly at the [Complex Data Lab](https://www.complexdatalab.com).
 
-TODO: add CrediBench paper, huggingface dataset links, CDL link
-
+For more documentation regarding the CrediNet codebase, refer to README's under individual repositories. 
+ 
