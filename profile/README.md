@@ -1,5 +1,7 @@
 ## CrediNet: Network-Based Credibility Modelling
 
+<img src="img/suite.png" alt="CrediGraph Logo" style="width: 500px; height: auto;" />
+
 ### About CrediNet
 
 **CrediNet** is set of tools that use graph machine learning and computational methods for credibility modelling on the web.
