@@ -1,22 +1,39 @@
+<div align="center">
+
 ## CrediNet: Network-Based Credibility Modelling
 
-<img src="img/suite.png" alt="CrediGraph Logo" style="width: 500px; height: auto;" />
+<img src="img/credigraph.png" alt="CrediGraph Logo" width="100" />
 
 ### About CrediNet
 
-**CrediNet** is set of tools that use graph machine learning and computational methods for credibility modelling on the web.
+**CrediNet** is a set of tools that use graph machine learning and computational methods for credibility modelling on the web.
+
+---
 
 We develop billion-scale data webgraphs and use them to assess credibility levels of websites, which can be used downstream to augment Retrieval-Augmented Generation robustness and fact-checking. 
 This involves large-scale web scraping and text processing, and developing model architectures to interpret the different types of signals we can find on the web (including structural, temporal and linguistic cues). 
-- See also our [Huggingface datasets](https://huggingface.co/credi-net).
+
+See also our [Huggingface datasets](https://huggingface.co/credi-net).
+
+</div>
+
+---
+
+
 
 For more details, refer to a specific repository: 
+<!-- <div align="center"> -->
+<img src="img/suite.png" alt="CrediGraph Suite" style="width: 500px; height: auto;" />
+<!-- </div> -->
+
 - [CrediNet](https://github.com/credi-net/CrediNet): the client-side repository with the API documentation, and downstream application examples.
 - [CrediPred](https://github.com/credi-net/CrediPred): our graph-based models, trained for the task of predicting the assessed credibility level of a given domain on the web.
 - [CrediGraph](https://github.com/credi-net/CrediGraph): our data construction pipeline, including:
   - The graph construction pipeline which automates the generation of billion-scale graphs from Common Crawl's raw data files on a monthly basis; and
   - A benchmark curation of 600k+ labeled domains from 8 human-annotated datasets of credibility scores, spanning both continuous and binary domain labels.
-- [CrediText](https://github.com/credi-net/CrediText): the text extraction pipeline, which retrieves text content for the millions of nodes in our graph datasets, either from Common Crawl raw files or through web scraping. This text is used to augment the structural and temporal information found in the graph in learning credibility signals. 
+- [CrediText](https://github.com/credi-net/CrediText): the text extraction pipeline, which retrieves text content for the millions of nodes in our graph datasets, either from Common Crawl raw files or through web scraping. This text is used to augment the structural and temporal information found in the graph in learning credibility signals.
+
+
 
 ## Contribution Guidelines
 ## Prerequisites
